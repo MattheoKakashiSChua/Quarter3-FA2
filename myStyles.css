@@ -1,0 +1,37 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px; 
+      background-color: aquamarine;
+    }
+    .calculatorbox {
+        display: inline-block;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: white;
+        max-width: 300px;
+      }
+  
+    input[type="number"] {
+      padding: 5px;
+      margin: 5px 5px;
+      width: 100px;
+    }
+    button {
+      padding: 10px 15px;
+      margin: 5px; 
+      background-color: antiquewhite;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; 
+      text-align: center;
+    }
+    button:hover {
+      background-color: gold;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
