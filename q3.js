@@ -38,9 +38,5 @@ function remainder(number1, number2) {
     number1 = parseFloat(document.getElementById('num1').value); 
     number2 = parseFloat(document.getElementById('num2').value);
     const rem = number1 % number2; 
-    if(number1 >= number2) {
     document.getElementById("result").innerHTML = "The remainder from the quotient of "+ number1 + " and " + number2 + " is " + rem; 
-    } else { 
-        document.getElementById("result").innerHTML = "The first number you inputted is less than or equal to the second number. Thus, no remainder.";
-    }
 } 
