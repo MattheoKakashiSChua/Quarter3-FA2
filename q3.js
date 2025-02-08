@@ -31,7 +31,13 @@ function quotient(number1, number2) {
     number2 = parseFloat(document.getElementById('num2').value);
     const div = number1 / number2; 
 
-    document.getElementById("result").innerHTML = "The quotient of "+ number1 + " and " + number2 + " is " + div;
+    if(number2 > 0 || number2 < 0) { 
+    document.getElementById("result").innerHTML = "The quotient of "+ number1 + " and " + number2 + " is " + div; 
+    } 
+    else {
+        document.getElementById("result").innerHTML = "I am sorry but 0 is an invalid input value for your second number when it comes to division ( / )";
+    }
+    
 } 
  
 function remainder(number1, number2) { 
